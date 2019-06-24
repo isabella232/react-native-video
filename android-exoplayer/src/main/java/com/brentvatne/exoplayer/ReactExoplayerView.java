@@ -125,7 +125,7 @@ class ReactExoplayerView extends FrameLayout implements
     private String textTrackType;
     private Dynamic textTrackValue;
     private ReadableArray textTracks;
-    private boolean disableFocus = false;
+    private boolean disableFocus = true;
     private float mProgressUpdateInterval = 250.0f;
     private boolean playInBackground = false;
     private boolean useTextureView = false;
